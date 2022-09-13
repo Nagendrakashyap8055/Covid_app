@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".home">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_topbk" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:gravity="center"
+                    android:text="Symptoms of COVID-19"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+
+                    tools:layout_editor_absoluteX="44dp"
+                    tools:layout_editor_absoluteY="85dp" />
+        </RelativeLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                    android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Watch for Symptoms"></TextView>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:textSize="20sp"
+           android:text=" \nPeople with COVID-19 have had a wide range of symptoms reported – ranging from mild symptoms to severe illness. Symptoms may appear 2-14 days after exposure to the virus. Anyone can have mild to severe symptoms. People with these symptoms may have COVID-19:
+\n\nFever or chills
+        \nCough
+        \nShortness of breath or difficulty breathing
+        \nFatigue
+        \nMuscle or body aches
+        \nHeadache
+        \nNew loss of taste or smell
+        \nSore throat
+        \nCongestion or runny nose
+        \nNausea or vomiting
+        \nDiarrhea
+        \n\nThis list does not include all possible symptoms. CDC will continue to update this list as we learn more about COVID-19. Older adults and people who have severe underlying medical conditions like heart or lung disease or diabetes seem to be at higher risk for developing more serious complications from COVID-19 illness.
+    "></TextView>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="\nWhen to Seek Emergency Medical Attention"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+        android:text="\nLook for emergency warning signs* for COVID-19. If someone is showing any of these signs, seek emergency medical care immediately:
+
+\n\nTrouble breathing
+\nPersistent pain or pressure in the chest
+\nNew confusion
+\nInability to wake or stay awake
+\nPale, gray, or blue-colored skin, lips, or nail beds, depending on skin tone
+\n\n*This list is not all possible symptoms. Please call your medical provider for any other symptoms that are severe or concerning to you.
+
+\n\nCall 911 or call ahead to your local emergency facility: Notify the operator that you are seeking care for someone who has or may have COVID-19."></TextView>
+   >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="\nIf you are sick"
+            ></TextView>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:id="@+id/check"
+            android:textSize="20sp"
+            android:textColor="@color/design_default_color_primary_dark"
+        android:text="
+\n\nCheck symptoms with Coronavirus Self-Checker\n"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/get"
+            android:textSize="20sp"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:text="Get tested\n"></TextView>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:id="@+id/what"
+        android:textSize="20sp"
+        android:text="What to do if you are sick\n"
+        android:textColor="@color/design_default_color_primary_dark"
+></TextView>
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:id="@+id/isolate"
+        android:textSize="20sp"
+        android:text="Isolate if you are sick\n"
+        android:textColor="@color/design_default_color_primary_dark"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/when"
+            android:textSize="20sp"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:text="When to quarantine\n"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/how"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="20sp"
+            android:text="How to care for someone who is sick\n">
+></TextView>
+        </LinearLayout>
+            </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

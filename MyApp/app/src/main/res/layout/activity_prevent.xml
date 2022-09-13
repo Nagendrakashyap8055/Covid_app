@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Prevent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_topbk" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:gravity="center"
+                android:text="Preventive Measures of COVID-19"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:textStyle="bold"
+
+                tools:layout_editor_absoluteX="44dp"
+                tools:layout_editor_absoluteY="85dp" />
+        </RelativeLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:text="How to Protect Yourself and Others"></TextView>
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="\nWear a mask"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:text=" \n1. If you are not fully vaccinated and aged 2 or older, you should wear a mask in indoor public places.
+\n\n2. In general, you do not need to wear a mask in outdoor settings.
+\n\n3. In areas with high numbers of COVID-19 cases, consider wearing a mask in crowded outdoor settings and for activities with close contact with others who are not fully vaccinated.
+\n\n4. If you are fully vaccinated and have a condition or are taking medications that weaken your immune system, you may need to keep taking steps to protect yourself, like wearing a mask. Talk to your healthcare provider about steps you can take to manage your health and risks.
+\n\n5. If you are fully vaccinated, see When You’ve Been Fully Vaccinated.
+\n\nMasks are required on planes, buses, trains, and other forms of public transportation traveling into, within, or out of the United States and in U.S. transportation hubs such as airports and stations. Travelers are not required to wear a mask in outdoor areas of a conveyance (like on a ferry or the top deck of a bus). CDC recommends that travelers who are not fully vaccinated continue to wear a mask and maintain physical distance when traveling."></TextView>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:text="\n Stay 6 feet away from others"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="\nInside your home: Avoid close contact with people who are sick.
+\nIf possible, maintain 6 feet between the person who is sick and other household members.
+\n\nOutside your home: Put 6 feet of distance between yourself and people who don’t live in your household.
+\n\nRemember that some people without symptoms may be able to spread virus.
+\n\nStay at least 6 feet (about 2 arm lengths) from other people.
+\n\nKeeping distance from others is especially important for people who are at higher risk of getting very sick."></TextView>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:text="\nGet Vaccinated"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="\nAuthorized COVID-19 vaccines can help protect you from COVID-19.
+\n\nYou should get a COVID-19 vaccine when it is available to you.
+\n\nOnce you are fully vaccinated, you may be able to start doing some things that you had stopped doing because of the pandemic.
+            "></TextView>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:text="\nAvoid crowds and poorly ventilated spaces"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="\nBeing in crowds like in restaurants, bars, fitness centers, or movie theaters puts you at higher risk for COVID-19.
+\n\nAvoid indoor spaces that do not offer fresh air from the outdoors as much as possible.
+\n\nIf indoors, bring in fresh air by opening windows and doors, if possible. "></TextView>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:text="\nClean and disinfect"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="\n
+\nClean high touch surfaces daily. This includes tables, doorknobs, light switches, countertops, handles, desks, phones, keyboards, toilets, faucets, and sinks.
+\n\nIf someone is sick or has tested positive for COVID-19, disinfect frequently touched surfaces. Use a household disinfectant product from EPA’s List N: Disinfectants for Coronavirus (COVID-19)external icon according to manufacturer’s labeled directions.
+\n\nIf surfaces are dirty, clean them using detergent or soap and water prior to disinfection.
+\n\nhead side medical light icon"></TextView>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:text="\nMonitor your health daily"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="\n   Be alert for symptoms. Watch for fever, cough, shortness of breath, or other symptoms of COVID-19.
+\n\nEspecially important if you are running essential errands, going into the office or workplace, and in settings where it may be difficult to keep a physical distance of 6 feet.
+\n\nTake your temperature if symptoms develop.
+\n\nDon’t take your temperature within 30 minutes of exercising or after taking medications that could lower your temperature, like acetaminophen.
+"></TextView>
+
+              </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

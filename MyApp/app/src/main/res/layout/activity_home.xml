@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingConstraints">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="730dp"
+        android:orientation="vertical"
+
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_topbk" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               >
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_gravity="bottom"
+                    android:text="Covid 19"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="49dp"
+                    tools:layout_editor_absoluteY="491dp" />
+
+                <ImageView
+                    android:layout_width="302dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/leaf" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="184dp"
+                android:layout_height="166dp"
+                android:background="@drawable/home_gradient_maths"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="14dp"
+                tools:layout_editor_absoluteY="335dp">
+
+                <TextView
+                    android:id="@+id/symptom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:paddingTop="10dp"
+                    android:text="Symptoms"
+                    android:textColor="@color/whiteTextColor"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+android:id="@+id/img_symptom"
+                    android:layout_width="150dp"
+                    android:layout_height="116dp"
+                    android:layout_gravity="center"
+
+                    android:background="@drawable/caugh"
+                    android:padding="5px" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="8dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="189dp"
+                android:layout_height="193dp"
+                android:background="@drawable/gradienr_self"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="210dp"
+                tools:layout_editor_absoluteY="335dp">
+
+                <TextView
+                    android:id="@+id/self"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:paddingTop="10dp"
+                    android:text="Self Assessment"
+                    android:textColor="@color/whiteTextColor"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+
+                    android:id="@+id/img_self"
+                    android:layout_width="103dp"
+                    android:layout_height="129dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/header_image"
+                    tools:layout_editor_absoluteX="72dp"
+                    tools:layout_editor_absoluteY="10dp"></ImageView>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="8dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="186dp"
+                android:layout_height="212dp"
+                android:background="@drawable/gradient_prevent"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="535dp">
+
+                <TextView
+                    android:id="@+id/prevent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:paddingTop="10dp"
+                    android:text="Preventive Measures"
+                    android:textColor="@color/whiteTextColor"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+
+                    android:id="@+id/img_prevent"
+                    android:layout_width="162dp"
+                    android:layout_height="122dp"
+                    android:background="@drawable/prevent"
+                    android:text="Preventive measures"></ImageView>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="8dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_height="165dp"
+                android:background="@drawable/gradient_test"
+                android:minHeight="100dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="535dp">
+
+                <TextView
+                    android:id="@+id/testing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:paddingTop="10dp"
+                    android:text="Testing Process"
+                    android:textColor="@color/whiteTextColor"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+
+                <ImageView
+                    android:id="@+id/img_test"
+
+                    android:layout_width="169dp"
+                    android:layout_height="92dp"
+                    android:background="@drawable/testing"
+                   ></ImageView>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="8dp"></TextView>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="192dp"
+                android:layout_height="712dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="165dp"
+                    android:layout_height="168dp"
+                    android:background="@drawable/gradient_vacc"
+                    android:minHeight="100dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="535dp">
+
+                    <TextView
+                        android:id="@+id/vaccination"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:paddingTop="10dp"
+                        android:text="Vaccination"
+                        android:textColor="@color/whiteTextColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold"></TextView>
+
+                    <ImageView
+
+                        android:id="@+id/img_vaccination"
+                        android:layout_width="140dp"
+                        android:layout_height="104dp"
+                        android:background="@drawable/vaccines"
+                        android:text="Preventive measures"></ImageView>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="8dp"></TextView>
+
+                <LinearLayout
+                    android:layout_width="168dp"
+                    android:layout_height="191dp"
+                    android:background="@drawable/gradient_care"
+                    android:minHeight="100dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="535dp">
+
+                    <TextView
+                        android:id="@+id/care"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:paddingTop="10dp"
+                        android:text="Covid Care Centers"
+                        android:textColor="@color/whiteTextColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold"></TextView>
+
+                    <ImageView
+                        android:id="@+id/img_care"
+
+                        android:layout_width="129dp"
+                        android:layout_height="98dp"
+                        android:background="@drawable/care"
+                        android:text="Preventive measures"></ImageView>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="8dp"></TextView>
+
+                <LinearLayout
+                    android:layout_width="168dp"
+                    android:layout_height="181dp"
+                    android:background="@drawable/gradient_prevent"
+                    android:minHeight="100dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="535dp">
+
+                    <TextView
+                        android:id="@+id/ambulance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:paddingTop="10dp"
+                        android:text="Ambulance"
+                        android:textColor="@color/whiteTextColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold"></TextView>
+
+                    <ImageView
+
+                        android:id="@+id/img_ambulance"
+                        android:layout_width="153dp"
+                        android:layout_height="108dp"
+                        android:background="@drawable/ambulance"
+                        android:text="Preventive measures"></ImageView>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="8dp"></TextView>
+
+                <LinearLayout
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/home_gradient_maths"
+                    android:minHeight="100dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="535dp">
+
+                    <TextView
+                        android:id="@+id/updates"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:paddingTop="10dp"
+                        android:text="Covid Updates"
+                        android:textColor="@color/whiteTextColor"
+                        android:textSize="20sp"
+                        android:textStyle="bold"></TextView>
+
+                    <ImageView
+
+                        android:id="@+id/img_updates"
+                        android:layout_width="149dp"
+                        android:layout_height="88dp"
+                        android:background="@drawable/home_ic_chemistry"
+                        android:text="Preventive measures"></ImageView>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

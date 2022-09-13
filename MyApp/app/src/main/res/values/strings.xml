@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Covid</string>
+    <string name="title_activity_home_nav">home_nav</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_symptoms">ScrollingActivity</string>
+    <string name="large_text">
+        "Watch for Symptoms
+"People with COVID-19 have had a wide range of symptoms reported – ranging from mild symptoms to severe illness. Symptoms may appear 2-14 days after exposure to the virus. Anyone can have mild to severe symptoms. People with these symptoms may have COVID-19:
+
+Fever or chills
+Cough
+Shortness of breath or difficulty breathing
+Fatigue
+Muscle or body aches
+Headache
+New loss of taste or smell
+Sore throat
+Congestion or runny nose
+Nausea or vomiting
+Diarrhea
+This list does not include all possible symptoms. CDC will continue to update this list as we learn more about COVID-19. Older adults and people who have severe underlying medical conditions like heart or lung disease or diabetes seem to be at higher risk for developing more serious complications from COVID-19 illness.
+"
+    </string>
+</resources>
